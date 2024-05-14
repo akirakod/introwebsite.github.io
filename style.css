@@ -1,0 +1,48 @@
+img {
+  opacity: 0.65;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #F8F6F4, #D2E9E9, #C4DFDF);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.new-gradient-background {
+  background: linear-gradient(300deg, #66BFBF, #FFFFE8, #CFE8A9);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.noto-serif- {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: regular;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: #1B9C85;
+}
+
+
+
+.hedvig-letters-serif- {
+  font-family: "Hedvig Letters Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #1B9C85;
+}
